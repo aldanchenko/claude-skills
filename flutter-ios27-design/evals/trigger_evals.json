@@ -1,0 +1,20 @@
+[
+  {"query": "Сделай моему Flutter-приложению дизайн как в iOS 27, с жидким стеклом", "should_trigger": true},
+  {"query": "My Flutter app still looks like Android. Can you make it feel like a native iPhone app with the new Liquid Glass bars?", "should_trigger": true},
+  {"query": "Переведи этот Material-апп на Cupertino и стеклянный таб-бар, как в нативных iOS-приложениях", "should_trigger": true},
+  {"query": "add a settings screen to my app — it already uses liquid_glass_widgets, keep it consistent", "should_trigger": true},
+  {"query": "редизайн флаттер приложения: хочу красиво, в стиле iOS, сейчас всё на MaterialApp", "should_trigger": true},
+  {"query": "In my Flutter habit tracker the cards look flat and the tab bar is the old Cupertino one. Make it look like Apple's own apps in iOS 26.", "should_trigger": true},
+  {"query": "review my Flutter screens for iOS look: are the glass bars and grouped lists done right?", "should_trigger": true},
+  {"query": "build a new Flutter app for iPhone, a simple water tracker with a ring, glass buttons and a settings tab", "should_trigger": true},
+  {"query": "Мой Flutter-экран с liquid_glass_widgets тормозит при скролле на старом айфоне, что сделать?", "should_trigger": true},
+  {"query": "Redesign my Flutter app with Material 3 expressive components and dynamic color", "should_trigger": false},
+  {"query": "Add Liquid Glass to my SwiftUI app's toolbar and tab view on iOS 26", "should_trigger": false},
+  {"query": "Сделай лендинг для приложения в стиле Apple, с эффектом стекла на CSS", "should_trigger": false},
+  {"query": "Add an iOS home screen widget (WidgetKit) that shows today's total from my Flutter app", "should_trigger": false},
+  {"query": "How do I set up go_router with nested navigation in Flutter?", "should_trigger": false},
+  {"query": "Сделай скриншоты моего Flutter-приложения для App Store", "should_trigger": false},
+  {"query": "Write widget tests for my CupertinoSwitch-based settings page", "should_trigger": false},
+  {"query": "Port this React Native screen to Flutter, keep the existing Material theme", "should_trigger": false},
+  {"query": "What's the difference between CupertinoColors.systemBlue and Colors.blue in Flutter?", "should_trigger": false}
+]

@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: live-app-metadata
+expected_outcome: |
+  The agent reads fastlane/metadata, runs the skill's check_metadata.py and proposes new en-US
+  and ru name / subtitle / keywords with NN/limit counts taken from the script, whose last run
+  reports no errors. The keyword fields have no spaces after commas and no words already in the
+  name, subtitle or the developer name "Example Apps". The answer says that keywords, subtitle and
+  description change only with a new app version and offers promotional text for today. Because
+  the app is live, it asks for or records current ranks before the change and plans a re-check
+  after the release. Nothing is uploaded.
+context:
+  scaffold_script: place-files.sh

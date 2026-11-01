@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: add-screen-existing-app
+expected_outcome: |
+  The water tracker gains a History tab in its existing AppShell, built from the foundation files
+  already in lib/core (no second theme, color or text file). The tab shows the week against the
+  goal (a ProgressRing with a spoken semanticsLabel, or a chart with a Semantics summary) and the
+  past days as GroupedRows in opaque GroupedSections, with loading, empty and error states (the
+  error state names what failed and offers Try Again). No glass on content, colors and text come
+  from AppColors / CupertinoColors and AppText, scripts/check_look.sh breaks no rule and flutter
+  analyze reports no issues.
+context:
+  scaffold_script: place-files.sh

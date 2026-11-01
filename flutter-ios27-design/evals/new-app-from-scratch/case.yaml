@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: new-app-from-scratch
+expected_outcome: |
+  A new Flutter project with a CupertinoApp root, liquid_glass_widgets 1.15 or newer and the
+  skill's foundation files in lib/core. The app has three tabs in the glass tab bar: a Today tab
+  whose hero is today's glasses against the goal (a ring or a big number) with a tinted
+  "+1" glass pill button, a history list in opaque grouped sections, and settings rows with
+  colored icon tiles and glass switches. Text uses the skill's type ramp and colors come from
+  the iOS 26 palette and CupertinoColors. flutter analyze reports no issues.

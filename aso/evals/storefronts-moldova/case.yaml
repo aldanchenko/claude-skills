@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: storefronts-moldova
+expected_outcome: |
+  The agent maps the target storefronts to Apple's localization table: Moldova shows English
+  (U.K.) only, Romania English (U.K.) and Romanian, the US also Russian. It does not promise
+  that geo terms in the ru keyword field rank in Moldova; it reaches Moldova through an en-GB
+  localization or the primary language and suggests checking ranks there. The proposed keyword
+  fields don't repeat words across localizations that share a storefront, cross-localization
+  is presented as vendor-observed rather than stated by Apple, and every proposed string has an
+  NN/limit count from check_metadata.py.

@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: restyle-material-app
+expected_outcome: |
+  The habit tracker keeps its three tabs and all its features (toggle a habit, add a habit,
+  stats, reminder switch, reset with confirmation) but now runs on CupertinoApp with
+  liquid_glass_widgets: the skill's foundation files are in lib/core, main() initializes the
+  glass and wraps the app with the iOS 27 material, the tabs use the glass tab bar, content sits
+  in opaque grouped cards, the switch is a glass switch with its own layer, adding a habit opens
+  a glass sheet and the reset confirmation is a glass dialog. No Material imports remain and
+  flutter analyze reports no issues.
+context:
+  scaffold_script: place-files.sh
